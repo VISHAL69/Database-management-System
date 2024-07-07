@@ -42,10 +42,10 @@
         const employeeDetailsContainer = document.querySelector('#employee-details');
         employeeDetailsContainer.innerHTML = `
         <img src="${activeEmployeeData.imageUrl}" width="100px">
-        <div> ${activeEmployeeData.firstName} ${activeEmployeeData.lastName}</div>
-        <div> ${activeEmployeeData.email}</div>
-        <div> ${activeEmployeeData.contactNumber}</div>
-        <div> ${activeEmployeeData.address}</div>
+        <p> Name: ${activeEmployeeData.firstName} ${activeEmployeeData.lastName}</p>
+        <p> Email: ${activeEmployeeData.email}</p>
+        <p> Contact Number: ${activeEmployeeData.contactNumber}</p>
+        <p> Address: ${activeEmployeeData.address}</p>
        `
     }
 

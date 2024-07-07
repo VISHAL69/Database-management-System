@@ -61,3 +61,7 @@
 .employee-details{
     text-align: center;
 }
+
+.employee-details > p{
+    margin-bottom: 7px;
+}
